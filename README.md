@@ -4,7 +4,7 @@ Bem-vindo ao trabalho prático de Teste de Mutação. O objetivo deste projeto �
 
 ## Contexto
 
-Este repositório contém uma biblioteca de cálculos simples. A suíte de testes inicial em `__tests__/` foi projetada para ter uma alta **cobertura de código**, mas esconde fraquezas que só o **teste de mutação** pode revelar.
+Este repositório contém uma biblioteca de cálculos simples. A suíte de testes inicial em `test/` foi projetada para ter uma alta **cobertura de código**, mas esconde fraquezas que só o **teste de mutação** pode revelar.
 
 Sua missão é atuar como um engenheiro de qualidade para encontrar essas fraquezas e escrever testes mais robustos para corrigi-las.
 
@@ -20,7 +20,7 @@ Sua missão é atuar como um engenheiro de qualidade para encontrar essas fraque
     - Abra o relatório HTML e analise os **mutantes que sobreviveram**.
 4.  **Aprimore os Testes:**
     - Para cada mutante sobrevivente, entenda por que ele não foi "morto".
-    - Adicione novos testes em `__tests__/operacoes.test.js` focados em asserções mais específicas para matar esses mutantes.
+    - Adicione novos testes em `test/operacoes.test.js` focados em asserções mais específicas para matar esses mutantes.
 5.  **Validação Final:**
     - Rode o Stryker novamente e verifique se sua pontuação de mutação aumentou, idealmente para mais de 95%.
 
